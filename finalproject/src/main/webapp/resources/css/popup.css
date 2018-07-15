@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url(common.css);
+
+/* popup */
+#pop_wrap{padding-bottom: 30px;}
+#pop_wrap h1{padding:10px 0 0 30px;height:54px;background:url(/woori_tobe/images/common/bg_pop.gif) right 0 no-repeat;font-size:26px;color:#fff;}
+#pop_cont{padding:25px 30px 30px;}
+#pop_cont h2{font-size:18px;}
+
+/* 취소요청 */
+.gray_box{padding:20px 25px;background:#f5f5f5;line-height:150%;}
+.gray_box .tbl_wrap{overflow:hidden;margin:15px 0 15px -9px;}
+.gray_box .tbl_wrap .row{width:382px;background:#fff;}
+.gray_box .tbl_wrap .row th{padding-left:20px;text-align:left;}
+.gray_box .tbl_wrap .row td{border-bottom:1px solid #dedede;}
+
+.col_ty2{border:none;border-top:2px solid #5e5e5e;}
+.col_ty2 table{border-top:none;}
+.row_ty2{border:none;border-top:2px solid #5e5e5e;}
+.row_ty2 table{border:1px solid #dedede;border-top:none;}
+.row table td:first-child{border-left:none;}
+
+td ul.pay_sort{padding-bottom:2px;}
+td ul.pay_sort li{position:relative;text-align:right;line-height:150%;}
+td ul.pay_sort li img{position:absolute;top:2px;*top:0;left:0;}
+
+.reserve_total{overflow:hidden;margin-top:-1px;border:1px solid #dedede;border-top:1px solid #5e5e5e;border-bottom:none;background:#f2f2f2;}
+.reserve_total dt{float:left;width:25%;height:40px;border-bottom:1px solid #dedede;font-weight:bold;color:#000;text-align:center;}
+.reserve_total dt span{display:inline-block;width:82px;padding-left:25px;background:url(/woori_tobe/images/common/bg_total_pay.gif) 0 10px no-repeat;line-height:36px;}
+.reserve_total dt.refund span{background-position:0 -31px;color:#d50001;}
+.reserve_total dd{float:right;width:75%;border-bottom:1px solid #dedede;font-weight:bold;line-height:40px;}
+.reserve_total dd span{display:block;padding-right:20px;color:#000;letter-spacing:0;text-align:right;}
+.reserve_total dt.refund + dd span{color:#d50001;}
+
+.indent74{display:block;padding-left:65px;text-indent:-65px;}
+
+/* 법인카드결제안내 */
+.cor_list dt .blue{margin-left:6px;padding-left:10px;background:url(/woori_tobe/images/common/bg_bar02.gif) 0 4px no-repeat;}
+.cor_list dd .w{display:inline-block;width:50px;}
+
+/* 이용약관 */
+.use_scr{overflow:auto;padding:0;/*height:395px;*/}
+.use_scr h5{margin-top:30px;font-size:14px;color:#323232;}
+.use_scr h5:first-child{margin-top:0;}
+.use_scr dl{margin-bottom:15px;}
+.use_scr dt{margin:20px 0 3px;font-weight:bold;color:#323232;}
+.use_scr dd{line-height:150%;}
+.use_scr dd ul{margin-left:15px;}
+
+/* 펜션미리보기 */
+.pop_tab{overflow:hidden;padding:12px 0 0 8px;background:url(/woori_tobe/images/common/bg_pop.gif) right bottom no-repeat;}
+.pop_tab li{float:left;}
+.pop_tab li a{display:block;padding:5px 30px 0;height:34px;font-weight:bold;font-size:18px;color:#fff;text-align:center;}
+.pop_tab li.on a{background:#fff;color:#323232;}
+
+.cont_tab{overflow:visible !important;}
+.cont_tab:after{content:'';display:block;clear:both;}
+
+.pop_preview{overflow:hidden;margin:35px 8px 0;padding-bottom:35px;min-height:470px;}
+.pop_preview .fl{width:480px;}
+.pop_preview .fr{width:277px;}
+.pop_preview .cont_tab{/*border-bottom:1px solid #5e5e5e;*/}
+.pop_preview .cont_tab > li{padding:0;width:161px;height:36px;}
+.gallery_tit .dropdown{display:inline-block;*display:inline;*zoom:1;margin:-8px 0 -5px;width:150px;text-align:left;vertical-align:middle;}
+.gallery_tit .dropdown .selected{font-size:12px;padding:0 0 0 8px;height:22px;background:#fafafa;font-weight:normal;font-size:12px;line-height:150%;}
+.gallery_tit .dropdown .carat{top:13px;width:7px;height:4px;background:url(/woori_tobe/images/common/select_ico3.gif) no-repeat;}
+.gallery_tit .dropdown li{padding:3px 0 3px 8px;font-size:12px;line-height:150%;text-align:left;}
+
+.pop_preview .cont_tab li a{font-size:13px;line-height:33px;}
+
+.pop_preview .fr dl{overflow:hidden;padding-top:10px;border-top:1px solid #dedede;}
+.pop_preview .fr dt{float:left;width:26%;height:20px;font-weight:bold;color:#323232;line-height:150%;}
+.pop_preview .fr dd{float:left;margin-bottom:12px;width:74%;min-height:20px;_height:20px;line-height:150%;}
+.pop_preview .fr dd.pay_info{clear:both;padding-top:10px;width:100%;}
+.pop_preview .fr dd.pay_info table{border-bottom:1px solid #dedede;}
+.pop_preview .fr dd.pay_info table thead th{padding-bottom:3px;border:1px solid #dedede;background:#f2f2f2;color:#323232;line-height:28px;}
+.pop_preview .fr dd.pay_info table td{padding:5px 0 8px;text-align:center;letter-spacing:0;}
+.pop_preview .fr dd.pay_info table td img{display:inline-block;margin-top:3px;}
+
+.preview_gallery{overflow:hidden;padding:10px 10px 20px;border:1px solid #dedede;/*border-top:none;*/border-top:1px solid #5e5e5e;}
+.preview_gallery .gallery_tit{margin-bottom:10px;font-weight:bold;font-size:14px;color:#323232;}
+.preview_gallery .preview_rolling{position:relative;margin-top:20px;padding-left:28px;}
+.preview_gallery .preview_rolling .rolling_ctrl{position:absolute;top:10px;overflow:hidden;display:block;width:12px;height:21px;background:url(/woori_tobe/images/common/bg_btn_rolling02.gif) no-repeat 0 50%;text-indent:-9999px;}
+.preview_gallery .preview_rolling .rolling_ctrl.prev{left:4px;}
+.preview_gallery .preview_rolling .rolling_ctrl.next{right:4px;background:url(/woori_tobe/images/common/bg_btn_rolling02.gif) no-repeat right 50%;}
+.preview_gallery .preview_rolling .caroufredsel_wrapper{width:406px !important;height:45px !important;}
+.preview_gallery .preview_rolling ul{overflow:hidden;width:406px;height:45px;}
+.preview_gallery .preview_rolling li{float:left;margin-right:3px;width:55px;}
+.preview_gallery .preview_rolling li img{width:55px;height:45px;}
+
+.preview_name{margin:-5px 0 15px;font-weight:bold;font-size:22px;color:#323232;}
+
+.pop_btn{padding-top:20px;border-top:2px solid #4675bb;text-align:center;}
+
+/* 실시간 예약현황 */
+.txt_margin {text-indent:58px;display:block;}
+
+.big_calendar {border-top:2px solid #3667b3;width:841px;}
+.big_month {text-align:center;position:relative;border-width:0 1px;border-style:solid;border-color:#dedede;font-weight:bold;color:#000;font-size:22px;padding:11px 0 15px 0;}
+.big_month a {position:absolute;top:15px;left:323px;display:inline-block;background:url(/woori_tobe/images/common/btn_calendar.gif) no-repeat;width:26px;height:26px;font-size:0;text-indent:-9999px;}
+.big_month a.next_month {left:491px;background-position:100% 0;}
+.big_calendar table {width:841px;border:1px solid #dedede;}
+.big_calendar th {background:#f2f2f2;padding:10px;}
+.big_calendar td {border:1px solid #dedede;height:100px;vertical-align:top;}
+.big_calendar td div {padding:5px 10px;width:99px;}
+.big_calendar td div.today {width:95px;border:2px solid #3667b3;background:#ecf1fa;}
+.calendar_date {color:#000;font-size:16px;display:inline;font-weight:bold;float:left;}
+.other_m {font-weight:normal;color:#afafaf;}
+.sat {color:#4675bb;}
+.sun {color:#d20000;}
+.description {float:left;font-family:"Dotum";font-size:11px;color:#4675bb;margin:6px 0 0 7px;}
+.calendar_sale {clear:both;background:#ea0000;color:#fff;font-size:12px;font-weight:bold;padding:1px 0 2px;width:58px;text-align:center;}
+.room {clear:both;padding-top:10px;}
+.today .room {padding-top:8px;}
+.room li {font-size:12px;padding:0 0 2px 18px;width:82px;position:relative;}
+/*.room li span {position:static;right:0;}*/
+.room li.off {color:#898989;cursor:pointer;height:15px;}
+.room li a {color:#323232;}
+.room li.room_c {background:url(/woori_tobe/images/common/ico_room_c.gif) no-repeat 0 1px;}
+.room li.room_f {background:url(/woori_tobe/images/common/ico_room_f.gif) no-repeat 0 1px;}
+.room li.room_g {background:url(/woori_tobe/images/common/ico_room_g.gif) no-repeat 0 1px;}
+.room li.room_g2 {background:url(/woori_tobe/images/common/ico_room_g2.gif) no-repeat 0 1px;}
+.room li.room_c.off {background-image:url(/woori_tobe/images/common/ico_room_c_off.gif)}
+.room li.room_f.off {background-image:url(/woori_tobe/images/common/ico_room_f_off.gif)}
+.room li.room_g.off,
+.room li.room_g2.off {background-image:url(/woori_tobe/images/common/ico_room_g_off.gif)}
+.big_calendar .off_pop {position:absolute;display:none;width:119px;z-index:100 !important;background:url(/woori_tobe/images/common/bg_rsv_balloon.png) no-repeat 50% 0;padding:5px 0 0 0;}
+.big_calendar .off_pop .off_pop_inner {padding:10px 5px 5px;border:1px solid #5e5e5e;border-top:0;width:107px;background:#fff;}
+.big_calendar .off_pop_inner .off_pop_tit {color:#000;border-bottom:1px solid #dedede;font-size:12px;font-weight:bold;padding-bottom:5px}
+.big_calendar .off_pop_inner li {color:#323232;font-size:12px;letter-spacing:0;padding:5px 0 0 0;min-height:30px;}
+.big_calendar .off_pop_inner p {letter-spacing:0;color:#323232;}
+.big_calendar .off_pop_inner span {margin-right:3px;}
+.big_calendar .off_pop_inner span.complete {color:#898989;}
+.big_calendar .off_pop_inner span.waiting {color:#d50000;}
